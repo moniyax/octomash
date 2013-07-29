@@ -26,6 +26,7 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+gem 'mini_magick'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -33,6 +34,8 @@ group :doc do
 end
 
 group :development do
+  gem 'looksee'
+  gem 'awesome_print'
   gem "guard-rspec"
 end
 
